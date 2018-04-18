@@ -7,13 +7,13 @@ public class Subject5 {
 	int one1, one2, hap1; 
 	int sum2, sum3=0;
 	
-	ten1 = (num/10); //½ÊÀÇ ÀÚ¸®
-	one1 = num-(ten1*10); //ÀÏÀÇ ÀÚ¸®
+	ten1 = (num/10); //ì‹­ì˜ ìë¦¬
+	one1 = num-(ten1*10); //ì¼ì˜ ìë¦¬
 
-	ten2 = one1*10; //´ÙÀ½ ½ÊÀÇ ÀÚ¸®
+	ten2 = one1*10; //ë‹¤ìŒ ì‹­ì˜ ìë¦¬
 	hap1 = ten1+one1;
-	one2 = hap1-(hap1/10)*10; //´ÙÀ½ ÀÏÀÇ ÀÚ¸®
-	sum2 = ten2+one2; //´ÙÀ½ ¼ö
+	one2 = hap1-(hap1/10)*10; //ë‹¤ìŒ ì¼ì˜ ìë¦¬
+	sum2 = ten2+one2; //ë‹¤ìŒ ìˆ˜
 	
 //	System.out.println(hap1);
 //	System.out.println(sum2);
@@ -21,16 +21,16 @@ public class Subject5 {
 	while(sum3!=num){
 		
 	i++;
-	ten1 = (sum2/10); //½ÊÀÇ ÀÚ¸®
-	one1 = sum2-(ten1*10); //ÀÏÀÇ ÀÚ¸®
+	ten1 = (sum2/10); //ì‹­ì˜ ìë¦¬
+	one1 = sum2-(ten1*10); //ì¼ì˜ ìë¦¬
 
-	ten2 = one1*10; //´ÙÀ½ ½ÊÀÇ ÀÚ¸®
+	ten2 = one1*10; //ë‹¤ìŒ ì‹­ì˜ ìë¦¬
 	hap1 = ten1+one1;
-	one2 = hap1-(hap1/10)*10; //´ÙÀ½ ÀÏÀÇ ÀÚ¸®
-	sum3 = ten2+one2; //´ÙÀ½ ¼ö
+	one2 = hap1-(hap1/10)*10; //ë‹¤ìŒ ì¼ì˜ ìë¦¬
+	sum3 = ten2+one2; //ë‹¤ìŒ ìˆ˜
 	sum2 = sum3;
 	
 	}//System.out.println(sum3); 
-	   System.out.println("È¸±â±îÁö È½¼ö: "+i);
+	   System.out.println("íšŒê¹Œì§€ íšŸìˆ˜: "+i);
 		
 }}
