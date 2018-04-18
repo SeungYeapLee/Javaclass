@@ -13,28 +13,28 @@ public class Subject2 {
 	map.put("Adult-hate", 21);
 
 	int a = map.get("elementary-like");
-	System.out.println("³ªÀÌ: "+map.get("elementary-like"));
+	System.out.println("ë‚˜ì´: "+map.get("elementary-like"));
 
 	switch(a){
-	case 6: System.out.println("»çÅÁÀ» Áİ´Ï´Ù"); break;
-	case 7: System.out.println("»çÅÁÀ» ÁÖÁö ¾Ê½À´Ï´Ù"); break;
-	case 13: System.out.println("¾ÆÀÌ½ºÅ©¸²À» Áİ´Ï´Ù"); break;
-	case 14: System.out.println("¾ÆÀÌ½ºÅ©¸²À» ÁÖÁö ¾Ê½À´Ï´Ù"); break;
-	case 20: System.out.println("´ã¹è¸¦ Áİ´Ï´Ù"); break;
-	case 21: System.out.println("´ã¹è¸¦ ÁÖÁö ¾Ê½À´Ï´Ù"); break;
+	case 6: System.out.println("ì‚¬íƒ•ì„ ì¤ë‹ˆë‹¤"); break;
+	case 7: System.out.println("ì‚¬íƒ•ì„ ì£¼ì§€ ì•ŠìŠµë‹ˆë‹¤"); break;
+	case 13: System.out.println("ì•„ì´ìŠ¤í¬ë¦¼ì„ ì¤ë‹ˆë‹¤"); break;
+	case 14: System.out.println("ì•„ì´ìŠ¤í¬ë¦¼ì„ ì£¼ì§€ ì•ŠìŠµë‹ˆë‹¤"); break;
+	case 20: System.out.println("ë‹´ë°°ë¥¼ ì¤ë‹ˆë‹¤"); break;
+	case 21: System.out.println("ë‹´ë°°ë¥¼ ì£¼ì§€ ì•ŠìŠµë‹ˆë‹¤"); break;
 	default: break;};
 	
 	System.out.println("---------------------");
 	
 	int b = 12; 
 	String c = "hate";
-	System.out.println("³ªÀÌ: "+b+", He "+c+"`s to get it");
+	System.out.println("ë‚˜ì´: "+b+", He "+c+"`s to get it");
 	
-	if(b<=12){ if(c=="like") System.out.println("»çÅÁÀ» Áİ´Ï´Ù"); 
-			   else System.out.println("»çÅÁÀ» ÁÖÁö ¾Ê½À´Ï´Ù");}
-	else if(b>12 && b<=19){ if(c=="like") System.out.println("¾ÆÀÌ½ºÅ©¸²À» Áİ´Ï´Ù"); 
-							 else System.out.println("¾ÆÀÌ½ºÅ©¸²À» ÁÖÁö ¾Ê½À´Ï´Ù");}
-	else{ if(c=="like") System.out.println("´ã¹è¸¦ Áİ´Ï´Ù");
-		  else System.out.println("´ã¹è¸¦ ÁÖÁö ¾Ê½À´Ï´Ù");}
+	if(b<=12){ if(c=="like") System.out.println("ì‚¬íƒ•ì„ ì¤ë‹ˆë‹¤"); 
+	              else System.out.println("ì‚¬íƒ•ì„ ì£¼ì§€ ì•ŠìŠµë‹ˆë‹¤");}
+	else if(b>12 && b<=19){ if(c=="like") System.out.println("ì•„ì´ìŠ¤í¬ë¦¼ì„ ì¤ë‹ˆë‹¤"); 
+				   else System.out.println("ì•„ì´ìŠ¤í¬ë¦¼ì„ ì£¼ì§€ ì•ŠìŠµë‹ˆë‹¤");}
+	else{ if(c=="like") System.out.println("ë‹´ë°°ë¥¼ ì¤ë‹ˆë‹¤");
+	         else System.out.println("ë‹´ë°°ë¥¼ ì£¼ì§€ ì•ŠìŠµë‹ˆë‹¤");}
 	
 }}
