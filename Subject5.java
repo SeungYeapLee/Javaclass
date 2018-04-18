@@ -31,6 +31,6 @@ public class Subject5 {
 	sum2 = sum3;
 	
 	}//System.out.println(sum3); 
-	   System.out.println("회까지 횟수: "+i);
+	   System.out.println("회귀까지 횟수: "+i);
 		
 }}
